@@ -163,8 +163,8 @@ p{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20pt;
 	font-weight: 300;
-	color:rgba(0, 0, 0, 0.6)
-	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+	color:rgba(0, 0, 0, 0.5)
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.1);
 	padding: 0px 0px 20px 40px;
 	width:980px;
 	margin: 0px 0px 10px 0px;
@@ -310,6 +310,31 @@ h1.entry-title{
 	font-size: 16px;
 	line-height:26px;
 	color: rgba(0, 0, 0, 0.9);
+}
+.entry-content h1{
+	font-size: 28px;
+}
+.entry-content h2{
+	font-size: 24px;
+}
+.entry-content h3{
+	font-size: 20px;
+}
+.entry-content h4{
+	font-size: 16px;
+}
+.entry-content h5{
+	font-size: 12px;
+}
+.entry-content ul{
+	line-height:18px;
+	list-style-type:square;
+	margin: 0px 0px 0px 20px;
+}
+.entry-content ol{
+	line-height:18px;
+	list-style-type:decimal;
+	margin: 0px 0px 0px 20px;
 }
 .entry-content img{
 	-webkit-box-shadow:0 0 20px #DDD;
@@ -488,6 +513,11 @@ input#s {
 	margin: 0 1em 5px 0;
 	width: 60%;
 }
+input{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+}
 input:focus{
 	outline: none;
     border: 1px solid #7bc1f7;
@@ -498,6 +528,13 @@ input:focus{
 textarea{
 	width: 80%;
 	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+textarea#comment{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color:rgba(0, 0, 0, 0.4);
+
 }
 textarea:focus{
 	width: 80%;
@@ -541,9 +578,6 @@ input#submit{
 
 /* =Comments
 -------------------------------------------------------------- */
-.bypostauthor{
-	visibility: visible;
-}
 h3#reply-title{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
