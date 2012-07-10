@@ -284,13 +284,13 @@ p{
 }
 h1.entry-title{
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 25pt;
 	color: rgba(0, 0, 0, 0.8);
 }
 .entry-title a{
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 25pt;
 	color: rgba(0, 0, 0, 0.8);
 }
@@ -354,10 +354,10 @@ code{
 	font-weight: 400;
 	font-size: 10pt;
 }
-blockquote {
+blockquote p{
 	font-family: 'Inconsolata', sans-serif;
 	font-weight: 300;
-	font-size:10pt;
+	font-size:12pt;
 	margin:1.4em 3em 1.6em 3em;
 	padding:0.1em 0em 0.1em 1em;
 	border-left:2px solid #ddd;
@@ -651,6 +651,7 @@ article.comment img{
 }
 .widget-area .widget_search {
 	overflow: hidden;
+	padding: 5px 0px 0px 5px;
 }
 .widget-area .widget_search input {
 	float: left;
