@@ -13,10 +13,10 @@
 
 	<footer id="colophon" role="contentinfo">
 		<div id="site-generator">
-			<?php do_action( 'toolbox_credits' ); ?>
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'toolbox' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'toolbox' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'toolbox' ), 'WordPress' ); ?></a>
+			<?php do_action( 'metroui_credits' ); ?>
+			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'metroui' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'metroui' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'metroui' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'toolbox' ), 'MetroUITheme', '<a href="http://sajithdilshan.github.com/" rel="designer">Sajith Dilshan</a>' ); ?>
+			<?php printf( __( 'Theme: %1$s by %2$s.', 'metroui' ), 'MetroUITheme', '<a href="http://sajithdilshan.github.com/" rel="designer">Sajith Dilshan</a>' ); ?>
 		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->

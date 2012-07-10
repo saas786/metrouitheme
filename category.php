@@ -15,7 +15,7 @@ get_header(); ?>
 
 				<header class="page-header">
 					<h1 class="page-title"><?php
-						printf( __( 'Category Archives: %s', 'toolbox' ), '<span>' . single_cat_title( '', false ) . '</span>' );
+						printf( __( 'Category Archives: %s', 'metroui' ), '<span>' . single_cat_title( '', false ) . '</span>' );
 					?></h1>
 
 					<?php
@@ -25,7 +25,7 @@ get_header(); ?>
 					?>
 				</header>
 
-				<?php toolbox_content_nav( 'nav-above' ); ?>
+				<?php metroui_content_nav( 'nav-above' ); ?>
 
 				<?php /* Start the Loop */ ?>
 				<?php while ( have_posts() ) : the_post(); ?>
@@ -40,17 +40,17 @@ get_header(); ?>
 
 				<?php endwhile; ?>
 
-				<?php toolbox_content_nav( 'nav-below' ); ?>
+				<?php metroui_content_nav( 'nav-below' ); ?>
 
 			<?php else : ?>
 
 				<article id="post-0" class="post no-results not-found">
 					<header class="entry-header">
-						<h1 class="entry-title"><?php _e( 'Nothing Found', 'toolbox' ); ?></h1>
+						<h1 class="entry-title"><?php _e( 'Nothing Found', 'metroui' ); ?></h1>
 					</header><!-- .entry-header -->
 
 					<div class="entry-content">
-						<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'toolbox' ); ?></p>
+						<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'metroui' ); ?></p>
 						<?php get_search_form(); ?>
 					</div><!-- .entry-content -->
 				</article><!-- #post-0 -->
