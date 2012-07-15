@@ -1,5 +1,5 @@
 ==============================================================================
-The MetroUI 0.2- Designed by Sajith Dilshan | http://sajithdilshan.github.com
+The MetroUI 0.3- Designed by Sajith Dilshan | http://sajithdilshan.github.com
 [Theme built for WordPress 2.8 or higher] 
 [Licensed under GPL]
 [July 15th 2012]
