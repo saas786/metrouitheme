@@ -1,8 +1,8 @@
 ==============================================================================
-The MetroUI 0.1- Designed by Sajith Dilshan | http://sajithdilshan.github.com
+The MetroUI 0.2- Designed by Sajith Dilshan | http://sajithdilshan.github.com
 [Theme built for WordPress 2.8 or higher] 
 [Licensed under GPL]
-[June 23rd 2012]
+[July 15th 2012]
 
 About MetroUI
 -----------------

@@ -50,6 +50,8 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css'>
+
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
@@ -64,14 +66,17 @@
 		<hgroup>
 			<h1 id="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
+			<div id="headersearch">
+				<form method="get" id="searchform" action="<?php echo home_url(); ?>/">
+					<div>
+						<input type="text" size="put_a_size_here" name="s" id="s" value="Type and hit enter" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
+						<input type="submit" id="searchsubmit" value="Search" class="btn" />
+					</div>
+				</form>
+			</div>
 		</hgroup>
 
-<!-- 		<nav id="access" role="navigation">
-			<h1 class="assistive-text section-heading"><?php _e( 'Main menu', 'metroui' ); ?></h1>
-			<div class="skip-link screen-reader-text"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'metroui' ); ?>"><?php _e( 'Skip to content', 'metroui' ); ?></a></div>
 
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-		</nav> --><!-- #access -->
-	</header><!-- #branding -->
+	</header>
 
 	<div id="main">
